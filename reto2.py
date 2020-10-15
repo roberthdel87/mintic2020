@@ -51,9 +51,9 @@ print(prestamo({
     }))
 print(prestamo({'id_prestamo': 'RETOS2_011', 'casado': 'No', 'dependientes': '3+', 'educacion': 'Graduado', 'independiente': 'No', 'ingreso_deudor': 3083, 'ingreso_codeudor': 0, 'cantidad_prestamo': 255, 'plazo_prestamo': 360, 'historia_credito': 1, 'tipo_propiedad': 'Rural'}))
 
-
-
 '''
+Ejemplos para usar: 
+
 id_prestamo = "RETOS2_001"
 casado = "No"
 dependientes = 1
