@@ -4,6 +4,7 @@ Created on Fri Oct  2 12:14:07 2020
 
 @author: roberthdel87
 """
+
 def nota_quices(codigo: str, nota1: int, nota2: int, nota3: int, nota4: int, nota5: int):
     quitar_nota = min(nota1,nota2,nota3,nota4,nota5)
     promedio = ((nota1 + nota2 + nota3 + nota4 + nota5 - quitar_nota)/20)/4
