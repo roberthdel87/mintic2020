@@ -15,7 +15,7 @@ distancias = {('H', 'H'): 0, ('H', 'A'): 21, ('H', 'B'): 57, ('H', 'C'): 58, ('H
               ('E', 'A'): 144, ('E', 'B'): 179, ('E', 'C'): 114, ('E', 'D'): 237, ('E', 'E'): 0, ('E', 'F'): 119,
               ('F', 'H'): 267, ('F', 'A'): 61, ('F', 'B'): 79, ('F', 'C'): 39, ('F', 'D'): 135, ('F', 'E'): 55,
               ('F', 'F'): 0}
-#ruta_inicial = ['H', 'B', 'E', 'A', 'C', 'D', 'H']
+
 ruta_inicial = ['H', 'A', 'B', 'C', 'D', 'E', 'F', 'H']
 
 def ruteo(distancias: dict, ruta_inicial: list)-> dict:
